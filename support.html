@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HandsUp Support</title>
+<meta name="description" content="Set up HandsUp with your Zoom account, plus answers to common questions.">
+<meta name="theme-color" content="#07112B">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html"><svg class="mark" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><circle cx="5" cy="5" r="3.6" fill="#F4F1EA"/><circle cx="15" cy="5" r="3.6" fill="#F4F1EA"/><circle cx="25" cy="5" r="3.6" fill="#C6F03A"/><circle cx="5" cy="15" r="3.6" fill="#F4F1EA"/><circle cx="15" cy="15" r="3.6" fill="#F4F1EA"/><circle cx="25" cy="15" r="3.6" fill="#F4F1EA"/><circle cx="5" cy="25" r="3.6" fill="#F4F1EA"/><circle cx="15" cy="25" r="3.6" fill="#F4F1EA"/><circle cx="25" cy="25" r="3.6" fill="#F4F1EA"/></svg>HandsUp</a>
+  <nav aria-label="Main"><a href="index.html">Home</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav>
+</div></header>
+<main><div class="wrap">
+<h1>Support</h1>
+<p class="lead">Setting up HandsUp takes about five minutes, once. Need help? Email <a href="mailto:hello@humancode.uk">hello@humancode.uk</a>.</p>
+
+<h2>What you need</h2>
+<ul>
+  <li>An iPad (or iPhone) running iPadOS 16 or later, placed where the speaker can see it.</li>
+  <li>The Zoom account that <strong>hosts</strong> your meetings, and a computer to sign in to it.</li>
+</ul>
+
+<h2>Connect your Zoom account</h2>
+<ol class="steps">
+  <li><strong>Sign in to the right Zoom account.</strong> On a computer, go to <a href="https://marketplace.zoom.us/">marketplace.zoom.us</a> and sign in with the account that hosts your meetings.</li>
+  <li><strong>Create a General app.</strong> Choose Develop → Build App, then General App. Name it anything, for example "HandsUp".</li>
+  <li><strong>Turn on Meeting SDK.</strong> In the app's Features section, open Embed and switch on Meeting SDK. Save.</li>
+  <li><strong>Copy the credentials.</strong> Open Basic Information → App Credentials and copy the Client ID and Client Secret.</li>
+  <li><strong>Add them to HandsUp.</strong> In HandsUp, go to Setup → Zoom accounts → Add Zoom account and paste both. The secret is stored only in the device's Keychain.</li>
+</ol>
+<p class="note">You don't need to publish the Zoom app. It can only join meetings hosted on the account it was created in. That's a Zoom rule, not a HandsUp one.</p>
+
+<h2>Add your meetings</h2>
+<p>Tap <strong>+</strong>, enter a name, the meeting ID and the passcode (if there is one), then choose which Zoom account hosts it. Add weekly times if you'd like HandsUp to join by itself.</p>
+
+<h2>Several groups, one room</h2>
+<p>If groups sharing the room host meetings on different Zoom accounts, repeat the steps above in each account and add each one under Setup → Zoom accounts. Then choose the right account in each meeting.</p>
+
+<h2>Questions</h2>
+<details><summary>It says the meeting is hosted on a different Zoom account</summary>
+<p>Zoom only lets the app join meetings hosted on the account it was created in. Edit the meeting and choose the account that hosts it, or add that account under Setup → Zoom accounts.</p></details>
+<details><summary>It's stuck on "Waiting for the host"</summary>
+<p>The meeting hasn't started yet, or the host needs to admit the device from the waiting room. HandsUp joins as soon as it's let in.</p></details>
+<details><summary>Why can't I hear the meeting?</summary>
+<p>That's deliberate. HandsUp never plays meeting audio, so it can't cause feedback or distract the room. The only sound it makes is the optional ping when a hand goes up.</p></details>
+<details><summary>Can the iPad vibrate?</summary>
+<p>iPads don't have a vibration motor. Use the ping, or run HandsUp on an iPhone for silent vibration alerts.</p></details>
+<details><summary>Auto-join didn't happen</summary>
+<p>Auto-join only works while HandsUp is open on screen. Leave the iPad on charge with the app open; Guided Access (Settings → Accessibility) stops it being closed by accident.</p></details>
+<details><summary>Does HandsUp record anything?</summary>
+<p>No. Video is shown on screen and never stored or sent anywhere. The device joins with its own camera and microphone off.</p></details>
+<details><summary>Can I use Siri?</summary>
+<p>Yes. Say "Join <em>meeting name</em> in HandsUp" or "Leave the meeting in HandsUp". You can also add these actions to the Shortcuts app.</p></details>
+<details><summary>Trial, unlock and codes</summary>
+<p>Setup → Licence starts the 14-day free trial, unlocks HandsUp for good with a one-time purchase, redeems a code, or restores a previous purchase. The demo is always free.</p></details>
+<details><summary>Can I try it before setting up Zoom?</summary>
+<p>Yes. Tap "Try the demo", or Setup → Demo meeting, to watch simulated participants raise hands.</p></details>
+
+<h2>Still stuck?</h2>
+<p>Email <a href="mailto:hello@humancode.uk">hello@humancode.uk</a> with your device model and what you see on screen.</p>
+
+</div></main>
+<footer class="site"><div class="wrap">
+  <p>HandsUp by humancode · <a href="mailto:hello@humancode.uk">hello@humancode.uk</a></p>
+  <p>HandsUp works with Zoom meetings. It isn't made by, endorsed by or affiliated with Zoom Communications, Inc.</p>
+</div></footer>
+</body>
+</html>
