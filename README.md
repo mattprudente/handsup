@@ -3,7 +3,7 @@
 Three pages: `index.html` (home), `support.html` (App Store "Support URL") and `privacy.html` (App Store "Privacy Policy URL").
 
 ## Details
-Published by humancode · hello@humancode.uk. The "Get it on the App Store" button points to the support page until the app is live; then change `href="support.html"` on that button in `index.html` to the App Store link.
+Published by humancode. The "Get it on the App Store" button points to the support page until the app is live; then change `href="support.html"` on that button in `index.html` to the App Store link.
 
 ## Publish
 1. On github.com, create a new **public** repository, e.g. `handsup`.
